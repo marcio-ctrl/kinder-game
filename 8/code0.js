@@ -17,6 +17,8 @@ gdjs.Scene1Code.GDCoinsObjects1= [];
 gdjs.Scene1Code.GDCoinsObjects2= [];
 gdjs.Scene1Code.GDDoorObjects1= [];
 gdjs.Scene1Code.GDDoorObjects2= [];
+gdjs.Scene1Code.GDHealthBarObjects1= [];
+gdjs.Scene1Code.GDHealthBarObjects2= [];
 
 gdjs.Scene1Code.conditionTrue_0 = {val:false};
 gdjs.Scene1Code.condition0IsTrue_0 = {val:false};
@@ -24,7 +26,7 @@ gdjs.Scene1Code.condition1IsTrue_0 = {val:false};
 gdjs.Scene1Code.condition2IsTrue_0 = {val:false};
 
 
-gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDGeleiaObjects1Objects = Hashtable.newFrom({"Geleia": gdjs.Scene1Code.GDGeleiaObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDLeftObjects1Objects = Hashtable.newFrom({"Left": gdjs.Scene1Code.GDLeftObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDDudeObjects1Objects = Hashtable.newFrom({"Dude": gdjs.Scene1Code.GDDudeObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDLeftObjects1Objects = Hashtable.newFrom({"Left": gdjs.Scene1Code.GDLeftObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDGeleiaObjects1Objects = Hashtable.newFrom({"Geleia": gdjs.Scene1Code.GDGeleiaObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDRightObjects1Objects = Hashtable.newFrom({"Right": gdjs.Scene1Code.GDRightObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDDudeObjects1Objects = Hashtable.newFrom({"Dude": gdjs.Scene1Code.GDDudeObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDRightObjects1Objects = Hashtable.newFrom({"Right": gdjs.Scene1Code.GDRightObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDDudeObjects1Objects = Hashtable.newFrom({"Dude": gdjs.Scene1Code.GDDudeObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDGeleiaObjects1Objects = Hashtable.newFrom({"Geleia": gdjs.Scene1Code.GDGeleiaObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDDudeObjects1Objects = Hashtable.newFrom({"Dude": gdjs.Scene1Code.GDDudeObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDcoinObjects1Objects = Hashtable.newFrom({"coin": gdjs.Scene1Code.GDcoinObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDDudeObjects1Objects = Hashtable.newFrom({"Dude": gdjs.Scene1Code.GDDudeObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDDoorObjects1Objects = Hashtable.newFrom({"Door": gdjs.Scene1Code.GDDoorObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDDudeObjects1Objects = Hashtable.newFrom({"Dude": gdjs.Scene1Code.GDDudeObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDGeleiaObjects1Objects = Hashtable.newFrom({"Geleia": gdjs.Scene1Code.GDGeleiaObjects1});gdjs.Scene1Code.eventsList0xb4be0 = function(runtimeScene) {
+gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDGeleiaObjects1Objects = Hashtable.newFrom({"Geleia": gdjs.Scene1Code.GDGeleiaObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDLeftObjects1Objects = Hashtable.newFrom({"Left": gdjs.Scene1Code.GDLeftObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDGeleiaObjects1Objects = Hashtable.newFrom({"Geleia": gdjs.Scene1Code.GDGeleiaObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDRightObjects1Objects = Hashtable.newFrom({"Right": gdjs.Scene1Code.GDRightObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDDudeObjects1Objects = Hashtable.newFrom({"Dude": gdjs.Scene1Code.GDDudeObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDRightObjects1Objects = Hashtable.newFrom({"Right": gdjs.Scene1Code.GDRightObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDDudeObjects1Objects = Hashtable.newFrom({"Dude": gdjs.Scene1Code.GDDudeObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDGeleiaObjects1Objects = Hashtable.newFrom({"Geleia": gdjs.Scene1Code.GDGeleiaObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDDudeObjects1Objects = Hashtable.newFrom({"Dude": gdjs.Scene1Code.GDDudeObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDcoinObjects1Objects = Hashtable.newFrom({"coin": gdjs.Scene1Code.GDcoinObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDDudeObjects1Objects = Hashtable.newFrom({"Dude": gdjs.Scene1Code.GDDudeObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDDoorObjects1Objects = Hashtable.newFrom({"Door": gdjs.Scene1Code.GDDoorObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDDudeObjects1Objects = Hashtable.newFrom({"Dude": gdjs.Scene1Code.GDDudeObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDLeftObjects1Objects = Hashtable.newFrom({"Left": gdjs.Scene1Code.GDLeftObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDDudeObjects1Objects = Hashtable.newFrom({"Dude": gdjs.Scene1Code.GDDudeObjects1});gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDGeleiaObjects1Objects = Hashtable.newFrom({"Geleia": gdjs.Scene1Code.GDGeleiaObjects1});gdjs.Scene1Code.eventsList0xb4be0 = function(runtimeScene) {
 
 {
 
@@ -40,8 +42,12 @@ gdjs.Scene1Code.GDDudeObjects1.createFrom(runtimeScene.getObjects("Dude"));
 {
 
 
+gdjs.Scene1Code.condition0IsTrue_0.val = false;
 {
-}
+gdjs.Scene1Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+}if (gdjs.Scene1Code.condition0IsTrue_0.val) {
+{gdjs.evtTools.sound.playSound(runtimeScene, "end.mp3", true, 100, 1.3);
+}}
 
 }
 
@@ -58,24 +64,6 @@ gdjs.Scene1Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionT
 /* Reuse gdjs.Scene1Code.GDGeleiaObjects1 */
 {for(var i = 0, len = gdjs.Scene1Code.GDGeleiaObjects1.length ;i < len;++i) {
     gdjs.Scene1Code.GDGeleiaObjects1[i].returnVariable(gdjs.Scene1Code.GDGeleiaObjects1[i].getVariables().getFromIndex(0)).setString("Right");
-}
-}}
-
-}
-
-
-{
-
-gdjs.Scene1Code.GDDudeObjects1.createFrom(runtimeScene.getObjects("Dude"));
-gdjs.Scene1Code.GDLeftObjects1.createFrom(runtimeScene.getObjects("Left"));
-
-gdjs.Scene1Code.condition0IsTrue_0.val = false;
-{
-gdjs.Scene1Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDDudeObjects1Objects, gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDLeftObjects1Objects, false, runtimeScene, true);
-}if (gdjs.Scene1Code.condition0IsTrue_0.val) {
-/* Reuse gdjs.Scene1Code.GDDudeObjects1 */
-{for(var i = 0, len = gdjs.Scene1Code.GDDudeObjects1.length ;i < len;++i) {
-    gdjs.Scene1Code.GDDudeObjects1[i].returnVariable(gdjs.Scene1Code.GDDudeObjects1[i].getVariables().getFromIndex(0)).setString("Right");
 }
 }}
 
@@ -166,6 +154,15 @@ gdjs.Scene1Code.GDDudeObjects1.length = k;}if (gdjs.Scene1Code.condition0IsTrue_
 
 {
 
+
+{
+}
+
+}
+
+
+{
+
 gdjs.Scene1Code.GDGeleiaObjects1.createFrom(runtimeScene.getObjects("Geleia"));
 
 gdjs.Scene1Code.condition0IsTrue_0.val = false;
@@ -230,15 +227,6 @@ gdjs.Scene1Code.GDcoinObjects1.createFrom(runtimeScene.getObjects("coin"));
     gdjs.Scene1Code.GDcoinObjects1[i].hide();
 }
 }}
-
-}
-
-
-{
-
-
-{
-}
 
 }
 
@@ -420,6 +408,24 @@ if (gdjs.Scene1Code.condition1IsTrue_0.val) {
 
 {
 
+gdjs.Scene1Code.GDDudeObjects1.createFrom(runtimeScene.getObjects("Dude"));
+gdjs.Scene1Code.GDLeftObjects1.createFrom(runtimeScene.getObjects("Left"));
+
+gdjs.Scene1Code.condition0IsTrue_0.val = false;
+{
+gdjs.Scene1Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDDudeObjects1Objects, gdjs.Scene1Code.mapOfGDgdjs_46Scene1Code_46GDLeftObjects1Objects, false, runtimeScene, true);
+}if (gdjs.Scene1Code.condition0IsTrue_0.val) {
+/* Reuse gdjs.Scene1Code.GDDudeObjects1 */
+{for(var i = 0, len = gdjs.Scene1Code.GDDudeObjects1.length ;i < len;++i) {
+    gdjs.Scene1Code.GDDudeObjects1[i].returnVariable(gdjs.Scene1Code.GDDudeObjects1[i].getVariables().getFromIndex(0)).setString("Right");
+}
+}}
+
+}
+
+
+{
+
 
 gdjs.Scene1Code.condition0IsTrue_0.val = false;
 {
@@ -465,6 +471,72 @@ gdjs.Scene1Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionT
 }
 
 
+{
+
+
+{
+gdjs.Scene1Code.GDHealthBarObjects1.createFrom(runtimeScene.getObjects("HealthBar"));
+{for(var i = 0, len = gdjs.Scene1Code.GDHealthBarObjects1.length ;i < len;++i) {
+    gdjs.Scene1Code.GDHealthBarObjects1[i].setScaleX(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0)));
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.Scene1Code.condition0IsTrue_0.val = false;
+{
+gdjs.Scene1Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0)) >= 100;
+}if (gdjs.Scene1Code.condition0IsTrue_0.val) {
+gdjs.Scene1Code.GDHealthBarObjects1.createFrom(runtimeScene.getObjects("HealthBar"));
+{for(var i = 0, len = gdjs.Scene1Code.GDHealthBarObjects1.length ;i < len;++i) {
+    gdjs.Scene1Code.GDHealthBarObjects1[i].setAnimation(1);
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.Scene1Code.condition0IsTrue_0.val = false;
+{
+gdjs.Scene1Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0)) <= -(1);
+}if (gdjs.Scene1Code.condition0IsTrue_0.val) {
+gdjs.Scene1Code.GDHealthBarObjects1.createFrom(runtimeScene.getObjects("HealthBar"));
+{for(var i = 0, len = gdjs.Scene1Code.GDHealthBarObjects1.length ;i < len;++i) {
+    gdjs.Scene1Code.GDHealthBarObjects1[i].setAnimation(2);
+}
+}}
+
+}
+
+
+{
+
+
+gdjs.Scene1Code.condition0IsTrue_0.val = false;
+gdjs.Scene1Code.condition1IsTrue_0.val = false;
+{
+gdjs.Scene1Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0)) < 100;
+}if ( gdjs.Scene1Code.condition0IsTrue_0.val ) {
+{
+gdjs.Scene1Code.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(0)) >= 0;
+}}
+if (gdjs.Scene1Code.condition1IsTrue_0.val) {
+gdjs.Scene1Code.GDHealthBarObjects1.createFrom(runtimeScene.getObjects("HealthBar"));
+{for(var i = 0, len = gdjs.Scene1Code.GDHealthBarObjects1.length ;i < len;++i) {
+    gdjs.Scene1Code.GDHealthBarObjects1[i].setAnimation(0);
+}
+}}
+
+}
+
+
 }; //End of gdjs.Scene1Code.eventsList0xb4be0
 
 
@@ -489,6 +561,8 @@ gdjs.Scene1Code.GDCoinsObjects1.length = 0;
 gdjs.Scene1Code.GDCoinsObjects2.length = 0;
 gdjs.Scene1Code.GDDoorObjects1.length = 0;
 gdjs.Scene1Code.GDDoorObjects2.length = 0;
+gdjs.Scene1Code.GDHealthBarObjects1.length = 0;
+gdjs.Scene1Code.GDHealthBarObjects2.length = 0;
 
 gdjs.Scene1Code.eventsList0xb4be0(runtimeScene);
 return;
